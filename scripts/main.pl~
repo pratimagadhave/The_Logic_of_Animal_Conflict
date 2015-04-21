@@ -90,6 +90,26 @@ sub fight{
 
 sub main{
 
+#	my $hawk6 = new Hawk($PROBABILITY_INJURY);
+#	my $proberetaliator4 = new Prober_Retaliator($MAX_MOVES_PROBER_RETALIATOR,$PROBABILITY_PROBE_PROBER_RETALIATOR,$PROBABILITY_RETALIATE_PROBER_RETALIATOR,$PROBABILITY_INJURY);
+#	fight($hawk6,$proberetaliator4,100);
+
+#	my $hawk4 = new Hawk($PROBABILITY_INJURY);
+#	my $bully4 = new Bully($PROBABILITY_INJURY);
+#	fight($hawk4,$bully4,100);
+
+
+	#my $proberetaliator1 = new Prober_Retaliator($MAX_MOVES_PROBER_RETALIATOR,$PROBABILITY_PROBE_PROBER_RETALIATOR,$PROBABILITY_RETALIATE_PROBER_RETALIATOR,$PROBABILITY_INJURY);
+	#my $proberetaliator2 = new Prober_Retaliator($MAX_MOVES_PROBER_RETALIATOR,$PROBABILITY_PROBE_PROBER_RETALIATOR,$PROBABILITY_RETALIATE_PROBER_RETALIATOR,$PROBABILITY_INJURY);
+	#fight($proberetaliator1,$proberetaliator2,100);
+
+	#my $mouse6 = new Mouse($MAX_MOVES_MOUSE);
+	#my $proberetaliator3 = new Prober_Retaliator($MAX_MOVES_PROBER_RETALIATOR,$PROBABILITY_PROBE_PROBER_RETALIATOR,$PROBABILITY_RETALIATE_PROBER_RETALIATOR,$PROBABILITY_INJURY);
+	#fight($mouse6,$proberetaliator3,$NUMBER_OF_SIMULATIONS);
+
+#=pod
+
+
 	#run each of the below 15 types for 2000 simulations
 
 	# mouse vs mouse
@@ -184,6 +204,7 @@ sub main{
 	print $line5;
 	print "\n\n";
 
+#=cut
 	#create array of animal
 	#add 100 animals in it % wise
 	my $percentageofmouse = 25; 
